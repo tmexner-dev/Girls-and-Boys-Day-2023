@@ -1,15 +1,16 @@
 # Girls-and Boysday 2023
 
 ## Table of Contents
-- [About this Project](https://github.com/AlexX1-dev/boys-and-girls-day-2023-library#about-this-project)
-- [Get Started](https://github.com/AlexX1-dev/boys-and-girls-day-2023-library#get-started)
-- [Textbausteine](https://github.com/AlexX1-dev/boys-and-girls-day-2023-library#textbausteine)
-- [Bildbausteine](https://github.com/AlexX1-dev/boys-and-girls-day-2023-library#bildbausteine)
-- [Videobausteine](https://github.com/AlexX1-dev/boys-and-girls-day-2023-library#videobausteine)
-- [Titelbausteine](https://github.com/AlexX1-dev/boys-and-girls-day-2023-library#titelbausteine)
-- [Iconbausteine](https://github.com/AlexX1-dev/boys-and-girls-day-2023-library#iconbausteine)
-- [Hintergrundbausteine](https://github.com/AlexX1-dev/boys-and-girls-day-2023-library#hintergrundbausteine)
-- [Roadmap](https://github.com/AlexX1-dev/boys-and-girls-day-2023-library#roadmap)
+- [About this Project](https://github.com/AlexX1-dev/Girls-and-Boys-Day-2023#about-this-project)
+- [Get Started](https://github.com/AlexX1-dev/Girls-and-Boys-Day-2023#get-started)
+- [Textbausteine](https://github.com/AlexX1-dev/Girls-and-Boys-Day-2023#textbausteine)
+- [Bildbausteine](https://github.com/AlexX1-dev/Girls-and-Boys-Day-2023#bildbausteine)
+- [Videobausteine](https://github.com/AlexX1-dev/Girls-and-Boys-Day-2023#videobausteine)
+- [Titelbausteine](https://github.com/AlexX1-dev/Girls-and-Boys-Day-2023#titelbausteine)
+- [Iconbausteine](https://github.com/AlexX1-dev/Girls-and-Boys-Day-2023#iconbausteine)
+- [Hintergrundbausteine](https://github.com/AlexX1-dev/Girls-and-Boys-Day-2023#hintergrundbausteine)
+- [Selber kompilieren](https://github.com/AlexX1-dev/Girls-and-Boys-Day-2023#selber-kompilieren)
+- [Roadmap](https://github.com/AlexX1-dev/Girls-and-Boys-Day-2023#roadmap)
 
 
 ## About this Project:
@@ -27,6 +28,7 @@ Die Entscheidung, dass jeder Parameter ein String ist, ist ebenfalls bewusst gew
 Wenn ihr Anmerkungen oder Verbesserungsvorschläge habt oder Bugs findet, schickt uns bitte euer Feedback. Dies könnt ihr durch Eröffnen eines Tickets machen oder ihr schreibt uns über Teams.
 
 ## Get started:
+Lade unter dem Punkt [Releases](https://github.com/AlexX1-dev/boys-and-girls-day-2023-library/releases) die aktuellste `.jar` Datei herunter oder [kompiliere sie selber](https://github.com/AlexX1-dev/Girls-and-Boys-Day-2023#selber-kompilieren). Und füge sie anschließend deinem Projekt als Library hinzu.
 
 Erstelle um zu starten eine Instanz von der Klasse WebseitenBuilder.
     
@@ -34,11 +36,11 @@ Erstelle um zu starten eine Instanz von der Klasse WebseitenBuilder.
 WebseitenBuilder webseite = new WebseitenBuilder();
 ```
 
-Jeder Baustein hat eine eigene einzigartige ID. Diese kann benutzt werden, um den Baustein zu bearbeiten. Die ID kann aus Buchstaben und Zahlen bestehen.
+Jeder Baustein hat eine eigene einzigartige ID. Diese kann benutzt werden, um den Baustein zu bearbeiten. Die ID kann aus Buchstaben, Zahlen und Sonderzeichen bestehen.
 
 Einen neuen Baustein fügt man hinzu, indem man den Namen von seinen WebseitenBuilder Namen (in diesem Beispiel ``webseite``) mit einer Methode durch einen Punkt verbindet.
 
-Eine Methode ist ein kleines Programm, welches ausgeführt wird, wenn es in dem Code steht. Diese Methoden brauchen Eingaben, um zu wissen, welche Aufgaben ausgeführt werden sollen.
+Eine Methode ist ein Teil eines Programmes, sie kann aufgerufen werden und weiteren Code ausführen. Es gibt zwei Arten von Methoden, mit und ohne Eingabe. Methoden ohne Eingabe führen definierten Code aus, etwas ähnlichen machen auch Methoden mit Eingabe, jedoch kann bei einer Methode mit Eingabe die Ausführung je nach Eingabe beeinflusst werden. 
 
 Diese Eingaben nennt man Parameter.
 Ein Parameter beginnt und endet mit ``"``. Wenn es mehr als ein Parameter gibt, trennt man diese mit einem ``,``.
@@ -349,8 +351,19 @@ webseite.HintergrundBild("https://upload.wikimedia.org/wikipedia/commons/0/04/Un
 ```
 <img src="README_images/HintergrundBildFalschFalsch.png" width="50%" height="50%" >
 
-
-
+## Selber kompilieren
+Dieser Teil ist für fortgeschrittene Benutzer, die selber etwas verändern wollen und dann die veränderte Version verwenden wollen.
+### Voraussetzungen
+- Java 19 oder neuer
+### Schritt-für-Schritt-Anleitung
+1. Mit `git` die aktuellste Version herunterladen: `git clone https://github.com/AlexX1-dev/Girls-and-Boys-Day-2023.git`
+2. In den `src` Ordner gehen (Dieser kann variieren je nachdem wo die `.java` Dateien sind).
+3. Die `.java` Dateien mit folgendem Befehl kompilieren:
+    `
+   javac -d *.java
+   `.
+4. Eine `.jar` Datei mit folgendem Befehl erstellen: ` jar cvf Boys-And-Girls-Day-2023.jar *.class`.
+5. Die erstellte `Boys-And-Girls-Day-2023.jar` kann nun als Library zu jedem Projekt hinzugefügt werden.
 ## Roadmap:
 
  - [x] Erster Release Candidate/ Prerelease
