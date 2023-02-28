@@ -48,9 +48,11 @@ public class BeispielWebseite {
         webseite.Icon("url_to_fav_icon");
 
 
-        // Webseiten Farbe
+        // Webseiten Hintergrund
 
         webseite.HintergrundFarbe("farbe");
+        
+        webseite.HintergrundBild("url_to_image", "Wahr", "Falsch");
 
 
         webseite.fertig();
