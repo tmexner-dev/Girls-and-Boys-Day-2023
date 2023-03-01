@@ -362,8 +362,8 @@ Dieser Teil ist für fortgeschrittene Benutzer, die selber etwas verändern woll
     `
    javac -d *.java
    `.
-4. Eine `.jar` Datei mit folgendem Befehl erstellen: ` jar cvf Boys-And-Girls-Day-2023.jar *.class`.
-5. Die erstellte `Boys-And-Girls-Day-2023.jar` kann nun als Library zu jedem Projekt hinzugefügt werden.
+4. Eine `.jar` Datei mit folgendem Befehl erstellen: ` jar cvf Girls-And-Boys-Day-2023.jar *.class`.
+5. Die erstellte `Girls-And-Boys-Day-2023.jar` kann nun als Library zu jedem Projekt hinzugefügt werden.
 ## Roadmap:
 
  - [x] Erster Release Candidate/ Prerelease
@@ -371,6 +371,6 @@ Dieser Teil ist für fortgeschrittene Benutzer, die selber etwas verändern woll
  - [ ] ~~Eventuelle Neustrukturierung vom Code~~
  - [x] Mehr Möglichkeiten für den Hintergrund
  - [ ] ~~Bessere Möglichkeiten Videos einzubinden~~
- - [ ] Erstellen einer Java Libary/ JAR-Datei
+ - [x] Erstellen einer Java Libary/ JAR-Datei
  - [ ] ~~Build-System (Gradle und Maven) erstellen~~
  - [x] Mehr Beispiele in Doku
