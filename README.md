@@ -32,8 +32,8 @@ Wenn du zu Hause weiter an deiner Webseite arbeiten willst, kannst du diese folg
 4. Dein Bildschirm sollte jetzt so aussehen:
 <img src="README_images/GetStarted/3.png" width="50%" height="50%" >
 5. Um deinen selber geschrieben Code einzufügen, lade ihn aus der E-Mail herunter.
-6. Mache einen Rechtsklick auf ```src``` und wähle unter dem Unterpunkt ```Open in``` ```Files``` aus. Dort kannst du
-   die ```webseite.java Datei``` reinkopieren.
+6. Mache einen Rechtsklick auf ```src``` und wähle unter dem Unterpunkt ```Open in```  ```Files``` aus. Dort kannst du
+   die ```webseite.java```  Datei reinkopieren.
 <img src="README_images/GetStarted/4.png" width="50%" height="50%" >
 7. Es kann passieren, dass dein Programm nicht ausführbar ist. Um das Problem zu beheben, mache einen Doppelklick
    auf ```WebseitenBuilder``` und ```WebseitenBuilderExeptions``` und füge fall noch nicht vorhanden in der ersten Zeile
