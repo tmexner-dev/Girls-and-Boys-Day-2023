@@ -1,3 +1,4 @@
+package src;
 import java.awt.*;
 import java.io.File;
 import java.io.FileWriter;
@@ -7,7 +8,7 @@ import java.util.HashMap;
 
 public class WebseitenBuilder {
 
-    private ArrayList<HashMap<String, String>> website_parser = new ArrayList<>();
+    private final ArrayList<HashMap<String, String>> website_parser = new ArrayList<>();
 
     /*
     #################
@@ -407,27 +408,13 @@ public class WebseitenBuilder {
         for (HashMap<String, String> element : website_parser) {
             String element_type = element.get("element_type");
             switch (element_type) {
-                case "text":
-                    htmlCode.append(generateText(element));
-                    break;
-                case "image":
-                    htmlCode.append(generateImage(element));
-                    break;
-                case "video":
-                    htmlCode.append(generateVideo(element));
-                    break;
-                case "title":
-                    htmlCode = generateTitle(element, htmlCode);
-                    break;
-                case "favicon":
-                    htmlCode = generateIcon(element, htmlCode);
-                    break;
-                case "background_color":
-                    htmlCode = generateBackground(element, htmlCode);
-                break;
-                case "background_image":
-                    htmlCode = generateBackgroundImage(element, htmlCode);
-                    break;
+                case "text" -> htmlCode.append(generateText(element));
+                case "image" -> htmlCode.append(generateImage(element));
+                case "video" -> htmlCode.append(generateVideo(element));
+                case "title" -> htmlCode = generateTitle(element, htmlCode);
+                case "favicon" -> htmlCode = generateIcon(element, htmlCode);
+                case "background_color" -> htmlCode = generateBackground(element, htmlCode);
+                case "background_image" -> htmlCode = generateBackgroundImage(element, htmlCode);
             }
 
         }

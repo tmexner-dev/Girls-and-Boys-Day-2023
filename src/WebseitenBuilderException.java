@@ -1,3 +1,4 @@
+package src;
 public class WebseitenBuilderException extends Exception{
     public WebseitenBuilderException() {
         super();
