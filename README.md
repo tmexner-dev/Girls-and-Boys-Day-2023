@@ -23,28 +23,28 @@ Wenn du zu Hause weiter an deiner Webseite arbeiten willst, kannst du diese folg
    IDE ([zum Beispiel IntelliJ-Community Edition](https://www.jetbrains.com/de-de/idea/download/#section=windows))
    herunter.
 
-2. Clone dir unser Projekt. Klicke hierfür auf den Knopf "Get from VCS."
+2. Clone dir unser Projekt. Klicke hierfür auf den Knopf ```Get from VCS```.
 <img src="README_images/GetStarted/1.png" width="50%" height="50%" >
 
 3. Füge folgenden Link in das Feld "URL:" ein: ``https://github.com/AlexX1-dev/Girls-and-Boys-Day-2023.git`` und klicke
-   auf "Clone"
+   auf ```Clone```
 <img src="README_images/GetStarted/2.png" width="50%" height="50%" >
 4. Dein Bildschirm sollte jetzt so aussehen:
 <img src="README_images/GetStarted/3.png" width="50%" height="50%" >
 5. Um deinen selber geschrieben Code einzufügen, lade ihn aus der E-Mail herunter.
-6. Mache einen Rechtsklick auf `src` und wähle unter dem Unterpunkt `Open in` `Files` aus. Dort kannst du
-   die `webseite.java Datei` reinkopieren.
+6. Mache einen Rechtsklick auf ```src``` und wähle unter dem Unterpunkt ```Open in``` ```Files``` aus. Dort kannst du
+   die ```webseite.java Datei``` reinkopieren.
 <img src="README_images/GetStarted/4.png" width="50%" height="50%" >
 7. Es kann passieren, dass dein Programm nicht ausführbar ist. Um das Problem zu beheben, mache einen Doppelklick
-   auf `WebseitenBuilder` und `WebseitenBuilderExeptions` und füge fall noch nicht vorhanden in der ersten Zeile
-   folgendes hinzu: `package src;` Gehe danach in die Datei `BeispielWebseite` und füge folgendes in die erste Zeile
-   ein: `import src.WebseitenBuilder;`
-8. Wenn du nochmal neu Anfangen willst, mache einen Rechtsklick auf `src` und wähle unter dem
-   Unterpunkt `New` `Java Class` aus.
+   auf ```WebseitenBuilder``` und ```WebseitenBuilderExeptions``` und füge fall noch nicht vorhanden in der ersten Zeile
+   folgendes hinzu: ```package src;``` Gehe danach in die Datei ```BeispielWebseite``` und füge folgendes in die erste Zeile
+   ein: ```import src.WebseitenBuilder;```
+8. Wenn du nochmal neu Anfangen willst, mache einen Rechtsklick auf ```src``` und wähle unter dem
+   Unterpunkt ```New``` ```Java Class``` aus.
 <img src="README_images/GetStarted/5.png" width="50%" height="50%" >
 9. Dort kannst du nun selber einen Namen für deine Klasse aussuchen.
 <img src="README_images/GetStarted/6.png" width="50%" height="50%" >
-10. Erstelle nun noch eine `main` Methode und du kannst anfangen mit Programmieren.
+10. Erstelle nun noch eine ```main``` Methode und du kannst anfangen mit Programmieren.
 <img src="README_images/GetStarted/7.png" width="50%" height="50%" >
 
 ## About this Project:
