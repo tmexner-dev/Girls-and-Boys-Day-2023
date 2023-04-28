@@ -11,6 +11,7 @@
 - [Hintergrundbausteine](https://github.com/AlexX1-dev/Girls-and-Boys-Day-2023#hintergrundbausteine)
 - [Selber kompilieren](https://github.com/AlexX1-dev/Girls-and-Boys-Day-2023#selber-kompilieren)
 - [Roadmap](https://github.com/AlexX1-dev/Girls-and-Boys-Day-2023#roadmap)
+- [Contact](https://github.com/AlexX1-dev/Girls-and-Boys-Day-2023#contact)
 
 
 ## About this Project:
@@ -374,3 +375,9 @@ Dieser Teil ist für fortgeschrittene Benutzer, die selber etwas verändern woll
  - [x] Erstellen einer Java Libary/ JAR-Datei
  - [ ] ~~Build-System (Gradle und Maven) erstellen~~
  - [x] Mehr Beispiele in Doku
+ 
+ ## Contact
+ 
+ Wenn du Fragen hast, kannst du mich über folgende E-Mail erreichen:
+ 
+fweigel@united-internet.de
