@@ -27,7 +27,7 @@ Wenn du zu Hause weiter an deiner Webseite arbeiten willst, kannst du diese folg
 <img src="README_images/GetStarted/1.png" width="50%" height="50%" >
 
 3. Füge folgenden Link in das Feld "URL:" ein: ```https://github.com/AlexX1-dev/Girls-and-Boys-Day-2023.git``` und klicke
-   auf `Clone
+   auf ```Clone```
 <img src="README_images/GetStarted/2.png" width="50%" height="50%" >
 4. Dein Bildschirm sollte jetzt so aussehen:
 <img src="README_images/GetStarted/3.png" width="50%" height="50%" >
