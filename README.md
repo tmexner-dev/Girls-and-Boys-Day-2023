@@ -41,7 +41,7 @@ Wenn du zu Hause weiter an deiner Webseite arbeiten willst, kannst du diese folg
 
 <img src="README_images/GetStarted/4.png" width="50%" height="50%" >
 
-7. Es kann passieren, dass dein Programm nicht ausführbar ist. Um das Problem zu beheben, mache einen Doppelklick
+7. In seltenen Fällen kann passieren, dass dein Programm nicht ausführbar ist. Um das Problem zu beheben, mache einen Doppelklick
    auf ```WebseitenBuilder``` und ```WebseitenBuilderExeptions``` und füge fall noch nicht vorhanden in der ersten Zeile
    folgendes hinzu: ```package src;``` Gehe danach in die Datei ```BeispielWebseite``` und füge folgendes in die erste Zeile
    ein: ```import src.WebseitenBuilder;```
