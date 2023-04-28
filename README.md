@@ -50,7 +50,9 @@ Wenn du zu Hause weiter an deiner Webseite arbeiten willst, kannst du diese folg
 <img src="README_images/GetStarted/5.png" width="50%" height="50%" >
 9. Dort kannst du nun selber einen Namen für deine Klasse aussuchen.
 <img src="README_images/GetStarted/6.png" width="50%" height="50%" >
+
 10. Erstelle nun noch eine ```main``` Methode und du kannst anfangen mit Programmieren.
+
 <img src="README_images/GetStarted/7.png" width="50%" height="50%" >
 
 ## About this Project:
